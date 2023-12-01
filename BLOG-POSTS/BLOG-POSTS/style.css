@@ -22,14 +22,22 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'candal', serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #444;
     margin: 5px;
+    font-size: 18px;
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
+    text-decoration:solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:navy;
+    font-size: 50px;
+    text-decoration-line: underline;
+}
+p{
+    text-align:justify;
+    width: 900px;
 }
 
 .clearfix::after {
@@ -39,7 +47,8 @@ a {
 }
 
 .btn {
-    padding: .5rem 1rem;
+
+    padding: .1rem 1rem;
     background: #006669;
     color: #fff;
     border: 1px solid transparent;
@@ -73,8 +82,8 @@ a {
 }
 
 header {
-    height: 66px;
-    background-color: #008489;
+    height: 180px;
+    background-color: #150c97;
 }
 
 header * {
@@ -83,13 +92,14 @@ header * {
 
 header .logo {
     float: left;
-    margin-left: 2em;
+    margin-left: 8em;
     height: inherit;
 
 }
 
 header .logo-text {
-    margin: 8px;
+    margin: 48px;
+    font-size: 50px;
     font-family: 'Candal', sans-serif;
 }
 
@@ -102,6 +112,7 @@ header ul {
     float: right;
     margin: 0px;
     padding: 0px;
+    font-size: 22px;
     list-style: none;
 }
 
@@ -125,6 +136,7 @@ header ul li:hover ul {
 }
 
 header ul li ul li {
+   
     width: 100%;
 }
 
@@ -135,10 +147,12 @@ header ul li ul li a {
 }
 
 header ul li ul a.logout {
+  
     color: red;
 }
 
 header ul li ul a:hover {
+   
     background: #d5d6d6;
 }
 
@@ -170,13 +184,20 @@ header .menu-toggle {
 
 .post-slider .slider-title {
     text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style:initial;
+    font-variant: small-caps;
+    font-stretch: narrower;
+    text-decoration:underline;
     margin: 30px auto;
     text-transform: uppercase;
 }
 
 .post-slider .post-wrapper {
     width: 84%;
-    height: 350px;
+    height: 550px;
     margin: 0px auto;
     padding: 10px 0px 10px 0px;
     overflow: hidden;
@@ -201,18 +222,18 @@ header .menu-toggle {
 }
 
 .post-slider .post-wrapper .post {
-    height: 330px;
+    height: 150px;
     width: 300px;
-    margin: 0px 10px;
+    margin: 0px 80px;
     background: #fff;
     display: inline-block;
     border-radius: 5px;
-    margin: 0px 10px;
+    margin: 0px 20px;
 }
 
 .post-slider .post-wrapper .post .slider-image {
     width: 100%;
-    height: 200px;
+    height: 300%;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
 }
@@ -259,7 +280,7 @@ margin-bottom: 40px;
 
 .content .main-content .post {
     width: 150%;
-    height: 400px;
+    height: 500px;
     margin: 20px auto;
     border-radius: 5px;
     background: #fff;
