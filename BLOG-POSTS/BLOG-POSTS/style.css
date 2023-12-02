@@ -34,6 +34,7 @@ a {
   font-size: 50px;
   text-decoration-line: underline;
 }
+
 p {
   text-align: justify;
   width: 900px;
@@ -87,7 +88,7 @@ header * {
 
 header .logo {
   float: left;
-  margin-left: 8em;
+  margin-left: 4em;
   height: inherit;
 }
 
