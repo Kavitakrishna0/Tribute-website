@@ -29,8 +29,8 @@ h6 {
 
 a {
   text-decoration: solid;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: navy;
+  font-family:"Comic Sans MS";
+  color: rgba(0, 96, 128, 0.742);
   font-size: 50px;
   text-decoration-line: underline;
 }
@@ -47,15 +47,15 @@ p {
 }
 
 .btn {
-  padding: 0.1rem 1rem;
+  padding: .5rem 1rem;
   background: #006669;
   color: #fff;
   border: 1px solid transparent;
-  border-radius: 0.25rem;
+  border-radius: .25rem;
 }
 
 .btn-big {
-  padding: 0.7rem 1.3rem;
+  padding: .7rem 1.3rem;
   line-height: 1.3rem;
 }
 
@@ -440,3 +440,5 @@ header .menu-toggle {
   margin-left: 15px;
   transition: all 0.3s;
 }
+
+
